@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EduSysNet - Website edukasi untuk belajar dasar Network dan System Administration.">
+    <title>EduSysNet – Website Belajar Network & System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a class="brand" href="#home" aria-label="EduSysNet Home">
+                <span class="brand-icon">ESN</span>
+                <span>EduSysNet</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu">
+                ☰
+            </button>
+
+            <nav id="mainNav" aria-label="Navigasi utama">
+                <a href="#home">Home</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#materi">Materi</a>
+                <a href="#port">Port</a>
+                <a href="#media">Media</a>
+                <a href="#quiz">Quiz</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+
+            <button id="themeToggle" class="theme-toggle" type="button" aria-label="Ganti tema">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">Website Edukasi Network & System</p>
+                    <h1>Belajar Network & System Jadi Lebih Mudah</h1>
+
+                    <p>
+                        <strong>EduSysNet</strong> membantu pemula mempelajari
+                        <em>networking</em>, Linux, server, dan keamanan sistem
+                        melalui materi yang singkat, terstruktur, dan mudah dipahami.
+                    </p>
+
+                    <p>
+                        Mulai dari <mark>IP Address</mark>, DNS, Linux, Nginx,
+                        sampai dasar keamanan jaringan.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#materi">Mulai Belajar</a>
+                        <a class="btn secondary" href="#quiz">Coba Quiz</a>
+                    </div>
+
+                    <div class="hero-stats" aria-label="Ringkasan materi">
+                        <div>
+                            <strong>4</strong>
+                            <span>Kategori</span>
+                        </div>
+                        <div>
+                            <strong>5+</strong>
+                            <span>Topik Dasar</span>
+                        </div>
+                        <div>
+                            <strong>3</strong>
+                            <span>Soal Quiz</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img src="assets/images/hero-network.svg"
+                         alt="Ilustrasi server dan jaringan komputer EduSysNet">
+                </div>
+            </div>
+        </section>
+
+        <section id="tentang" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">Tentang</span>
+                    <h2>Apa itu EduSysNet?</h2>
+                    <p>
+                        EduSysNet adalah website pembelajaran sederhana yang membahas
+                        dasar-dasar jaringan komputer dan administrasi sistem.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="info-card">
+                        <h3>Tujuan Pembelajaran</h3>
+                        <p>
+                            Membantu pengguna memahami konsep dasar Network dan System
+                            sebelum mempelajari konfigurasi yang lebih kompleks.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Target Pengguna</h3>
+                        <p>
+                            Mahasiswa, siswa, maupun pemula yang ingin mengenal
+                            networking dan system administration dari dasar.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Metode Belajar</h3>
+                        <p>
+                            Materi ringkas, daftar langkah, tabel port, media audio-video,
+                            dan quiz interaktif.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="materi" class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">Materi</span>
+                    <h2>Materi Pembelajaran</h2>
+                    <p>Pilih topik yang ingin dipelajari terlebih dahulu.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="topic-card">
+                        <div class="topic-icon">🌐</div>
+                        <h3>Dasar Networking</h3>
+                        <ul>
+                            <li>IP Address</li>
+                            <li>Subnet Mask</li>
+                            <li>Gateway</li>
+                            <li>DNS</li>
+                            <li>LAN dan WAN</li>
+                        </ul>
+                    </article>
+
+                    <article class="topic-card">
+                        <div class="topic-icon">🐧</div>
+                        <h3>Linux Dasar</h3>
+                        <ul>
+                            <li>File System Linux</li>
+                            <li>User dan Permission</li>
+                            <li>Command Dasar</li>
+                            <li>Service</li>
+                            <li>Package Manager</li>
+                        </ul>
+                    </article>
+
+                    <article class="topic-card">
+                        <div class="topic-icon">🖥️</div>
+                        <h3>Web Server</h3>
+                        <ul>
+                            <li>Pengertian Web Server</li>
+                            <li>Apache</li>
+                            <li>Nginx</li>
+                            <li>HTTP dan HTTPS</li>
+                            <li>Virtual Host</li>
+                        </ul>
+                    </article>
+
+                    <article class="topic-card">
+                        <div class="topic-icon">🔐</div>
+                        <h3>Network Security</h3>
+                        <ul>
+                            <li>Firewall</li>
+                            <li>VPN</li>
+                            <li>SSH</li>
+                            <li>HTTPS</li>
+                            <li>Basic Hardening</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="learning-box">
+                    <div>
+                        <span class="section-label">Ordered List</span>
+                        <h3>Langkah Dasar Konfigurasi Jaringan</h3>
+                    </div>
+
+                    <ol>
+                        <li>Tentukan IP Address perangkat.</li>
+                        <li>Tentukan Subnet Mask sesuai jaringan.</li>
+                        <li>Masukkan Default Gateway.</li>
+                        <li>Tentukan DNS Server.</li>
+                        <li>Lakukan pengujian koneksi menggunakan ping.</li>
+                    </ol>
+                </div>
+
+                <div class="topology-box">
+                    <div>
+                        <span class="section-label">Image HTML</span>
+                        <h3>Contoh Topologi Jaringan Sederhana</h3>
+                        <p>
+                            Diagram berikut menggambarkan hubungan internet, router,
+                            switch, server, dan client.
+                        </p>
+                    </div>
+
+                    <img src="assets/images/network-topology.svg"
+                         alt="Diagram topologi jaringan internet router switch server dan client">
+                </div>
+            </div>
+        </section>
+
+        <section id="port" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">Table HTML</span>
+                    <h2>Common Network Ports</h2>
+                    <p>Beberapa port jaringan yang umum digunakan.</p>
+                </div>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Service</th>
+                                <th>Protocol</th>
+                                <th>Port</th>
+                                <th>Fungsi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FTP</td>
+                                <td>TCP</td>
+                                <td>21</td>
+                                <td>Transfer file</td>
+                            </tr>
+                            <tr>
+                                <td>SSH</td>
+                                <td>TCP</td>
+                                <td>22</td>
+                                <td>Remote server secara aman</td>
+                            </tr>
+                            <tr>
+                                <td>DNS</td>
+                                <td>TCP/UDP</td>
+                                <td>53</td>
+                                <td>Resolusi nama domain</td>
+                            </tr>
+                            <tr>
+                                <td>HTTP</td>
+                                <td>TCP</td>
+                                <td>80</td>
+                                <td>Akses website</td>
+                            </tr>
+                            <tr>
+                                <td>HTTPS</td>
+                                <td>TCP</td>
+                                <td>443</td>
+                                <td>Akses website terenkripsi</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <details class="details-box">
+                    <summary>Kenapa port penting?</summary>
+                    <p>
+                        Port membantu sistem operasi membedakan layanan yang berjalan pada
+                        sebuah perangkat jaringan. Contohnya, HTTP umumnya menggunakan
+                        port 80 dan HTTPS menggunakan port 443.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <section id="media" class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">Audio & Video HTML</span>
+                    <h2>Media Pembelajaran</h2>
+                    <p>
+                        EduSysNet juga menyediakan media audio dan video agar pembelajaran
+                        lebih variatif.
+                    </p>
+                </div>
+
+                <div class="media-grid">
+                    <article class="media-card">
+                        <h3>Video: Pengenalan EduSysNet</h3>
+                        <video controls poster="assets/images/hero-network.svg">
+                            <source src="assets/video/intro-edusysnet.mp4" type="video/mp4">
+                            Browser Anda tidak mendukung tag video.
+                        </video>
+                        <p>
+                            Video singkat untuk memperkenalkan topik Network dan System.
+                        </p>
+                    </article>
+
+                    <article class="media-card">
+                        <h3>Audio: Dasar Networking</h3>
+                        <audio controls>
+                            <source src="assets/audio/intro-network.mp3" type="audio/mpeg">
+                            Browser Anda tidak mendukung tag audio.
+                        </audio>
+                        <p>
+                            Dengarkan pengenalan singkat mengenai jaringan komputer.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-label">JavaScript</span>
+                    <h2>Quiz EduSysNet</h2>
+                    <p>Jawab tiga pertanyaan berikut lalu periksa nilai Anda.</p>
+                </div>
+
+                <form id="quizForm" class="quiz-card">
+                    <fieldset>
+                        <legend>1. Port default HTTPS adalah...</legend>
+                        <label><input type="radio" name="q1" value="21"> 21</label>
+                        <label><input type="radio" name="q1" value="22"> 22</label>
+                        <label><input type="radio" name="q1" value="80"> 80</label>
+                        <label><input type="radio" name="q1" value="443"> 443</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>2. Perintah yang umum digunakan untuk menguji koneksi adalah...</legend>
+                        <label><input type="radio" name="q2" value="mkdir"> mkdir</label>
+                        <label><input type="radio" name="q2" value="ping"> ping</label>
+                        <label><input type="radio" name="q2" value="touch"> touch</label>
+                        <label><input type="radio" name="q2" value="clear"> clear</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>3. Layanan untuk menerjemahkan nama domain menjadi IP adalah...</legend>
+                        <label><input type="radio" name="q3" value="FTP"> FTP</label>
+                        <label><input type="radio" name="q3" value="SSH"> SSH</label>
+                        <label><input type="radio" name="q3" value="DNS"> DNS</label>
+                        <label><input type="radio" name="q3" value="HTTP"> HTTP</label>
+                    </fieldset>
+
+                    <button class="btn primary" type="submit">Periksa Jawaban</button>
+                    <button class="btn secondary" id="resetQuiz" type="button">Reset Quiz</button>
+
+                    <p id="quizResult" class="result-box" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="kontak" class="section section-alt">
+            <div class="container">
+                <div class="contact-grid">
+                    <div>
+                        <span class="section-label">Form HTML + JavaScript</span>
+                        <h2>Kirim Feedback</h2>
+                        <p>
+                            Berikan saran mengenai materi yang ingin ditambahkan ke EduSysNet.
+                        </p>
+
+                        <address>
+                            Email:
+                            <a href="mailto:edusysnet@example.com">edusysnet@example.com</a>
+                        </address>
+                    </div>
+
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" name="nama"
+                                   placeholder="Masukkan nama Anda">
+                            <small class="error" id="namaError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email"
+                                   placeholder="nama@email.com">
+                            <small class="error" id="emailError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="topik">Topik yang diminati</label>
+                            <select id="topik" name="topik">
+                                <option value="">-- Pilih Topik --</option>
+                                <option value="network">Networking</option>
+                                <option value="linux">Linux</option>
+                                <option value="server">Web Server</option>
+                                <option value="security">Network Security</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pesan">Pesan</label>
+                            <textarea id="pesan" name="pesan" rows="5"
+                                      placeholder="Tulis feedback Anda"></textarea>
+                            <small class="error" id="pesanError"></small>
+                        </div>
+
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="setuju">
+                            Saya setuju feedback ini digunakan untuk pengembangan website.
+                        </label>
+
+                        <button class="btn primary" type="submit">Kirim Feedback</button>
+                        <p id="formResult" class="result-box" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>EduSysNet</strong>
+                <p>Website Belajar Network & System.</p>
+            </div>
+
+            <div>
+                <p>Project UAS Pemrograman Web I</p>
+                <p>
+                    Nama Kelompok:
+                    <strong>GANTI DENGAN NAMA KELOMPOK</strong>
+                </p>
+            </div>
+
+            <div>
+                <p>&copy; <span id="currentYear"></span> EduSysNet.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

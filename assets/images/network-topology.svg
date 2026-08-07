@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" rx="28" fill="#f7f9fc"/>
+  <g stroke="#1f5eff" stroke-width="6" fill="none">
+    <line x1="500" y1="100" x2="500" y2="185"/>
+    <line x1="500" y1="245" x2="500" y2="320"/>
+    <line x1="500" y1="380" x2="230" y2="430"/>
+    <line x1="500" y1="380" x2="500" y2="430"/>
+    <line x1="500" y1="380" x2="770" y2="430"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g>
+      <ellipse cx="500" cy="70" rx="115" ry="45" fill="#dbe7ff" stroke="#1f5eff" stroke-width="4"/>
+      <text x="500" y="80" font-size="28" font-weight="700" fill="#172033">INTERNET</text>
+    </g>
+
+    <g>
+      <rect x="390" y="185" width="220" height="60" rx="18" fill="#ffffff" stroke="#13b8a6" stroke-width="4"/>
+      <text x="500" y="223" font-size="26" font-weight="700" fill="#172033">ROUTER</text>
+    </g>
+
+    <g>
+      <rect x="390" y="320" width="220" height="60" rx="18" fill="#172033"/>
+      <text x="500" y="358" font-size="26" font-weight="700" fill="#ffffff">SWITCH</text>
+    </g>
+
+    <g>
+      <rect x="125" y="430" width="210" height="60" rx="16" fill="#ffffff" stroke="#1f5eff" stroke-width="4"/>
+      <text x="230" y="468" font-size="24" font-weight="700" fill="#172033">CLIENT</text>
+    </g>
+
+    <g>
+      <rect x="395" y="430" width="210" height="60" rx="16" fill="#ffffff" stroke="#13b8a6" stroke-width="4"/>
+      <text x="500" y="468" font-size="24" font-weight="700" fill="#172033">SERVER</text>
+    </g>
+
+    <g>
+      <rect x="665" y="430" width="210" height="60" rx="16" fill="#ffffff" stroke="#1f5eff" stroke-width="4"/>
+      <text x="770" y="468" font-size="24" font-weight="700" fill="#172033">LAPTOP</text>
+    </g>
+  </g>
+</svg>
