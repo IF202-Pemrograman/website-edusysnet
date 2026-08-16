@@ -3,10 +3,6 @@
 EduSysNet adalah starter project UAS Pemrograman Web I bertema edukasi yang membahas
 dasar Network dan System Administration.
 
-
-## Kelompok
-Kelompok kami beri nama "SAF" merupakan singkatan dari "Sandy,Andyka,Fazlur" 
-
 ## Fitur yang sudah tersedia
 
 - Heading dan paragraph
@@ -92,3 +88,10 @@ Gunakan extension Live Server, kemudian klik kanan pada `index.html` lalu pilih:
 
 Form pada project ini merupakan form frontend dan tidak mengirim data ke database.
 Pesan berhasil ditampilkan sebagai simulasi menggunakan JavaScript.
+
+## Copyright
+
+© 2026 **SAF — Sandy, Andyka, Fazlur**. All Rights Reserved.
+
+Website **EduSysNet** dibuat oleh Kelompok SAF untuk keperluan UAS mata kuliah **Pemrograman Web I**. Seluruh source code, desain, dan materi yang dibuat oleh kelompok ini digunakan untuk kepentingan pembelajaran dan akademik.
+
