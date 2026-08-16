@@ -91,7 +91,6 @@ Pesan berhasil ditampilkan sebagai simulasi menggunakan JavaScript.
 
 ## Copyright
 
-© 2026 **SAF — Sandy, Andyka, Fazlur**. All Rights Reserved.
-
-Website **EduSysNet** dibuat oleh Kelompok SAF untuk keperluan UAS mata kuliah **Pemrograman Web I**. Seluruh source code, desain, dan materi yang dibuat oleh kelompok ini digunakan untuk kepentingan pembelajaran dan akademik.
-
+© 2026 **SAF (Sandy, Andyka, Fazlur)**
+EduSysNet — UAS Pemrograman Web I.
+All Rights Reserved.
