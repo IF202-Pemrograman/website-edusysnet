@@ -3,6 +3,10 @@
 EduSysNet adalah starter project UAS Pemrograman Web I bertema edukasi yang membahas
 dasar Network dan System Administration.
 
+
+## Kelompok
+Kelompok kami beri nama "SAF" merupakan singkatan dari "Sandy,Andyka,Fazlur" 
+
 ## Fitur yang sudah tersedia
 
 - Heading dan paragraph
